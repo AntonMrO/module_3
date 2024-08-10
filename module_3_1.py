@@ -21,6 +21,10 @@ def is_contains(string, list_to_search):
 
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
+print(string_info('Parallel line'))
+print(string_info('Telecommunications'))
 print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBAN
 print(is_contains('cycle', ['recycling', 'cyclic'])) # No matches
+print(is_contains('math', ['Giperline', 'moDify', 'Geometric'])) # No matches
+print(is_contains('HOME', ['house', 'building', 'Home'])) # Home ~ HOME
 print(call)
